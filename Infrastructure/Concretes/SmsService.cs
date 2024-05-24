@@ -22,9 +22,7 @@ public class SmsService : ISmsProvider
         var provider = providerSelector.SelectProvider();
 
         if (provider == null)
-        {
             throw new InvalidOperationException("No suitable SMS provider found.");
-        }
 
         // Use the selected provider to send the SMS
         await provider.SendSmsAsync(message);

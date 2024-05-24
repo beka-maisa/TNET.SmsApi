@@ -5,8 +5,5 @@ namespace Infrastructure.Concretes;
 
 public class TwilioSmsProvider : ISmsProvider
 {
-    public async Task SendSmsAsync(SmsRequest message)
-    {
-        await Task.CompletedTask;
-    }
+    public async Task SendSmsAsync(SmsRequest message) => await Task.CompletedTask;
 }

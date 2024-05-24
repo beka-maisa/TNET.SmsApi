@@ -1,19 +1,14 @@
 ﻿using Application.Abstracts;
-using Microsoft.Extensions.Configuration;
 
 namespace Infrastructure.Concretes;
 
 public class ProviderSelectorService : IProviderSelectorService
 {
     private readonly IEnumerable<IProviderSelector> _smsProviderSelectors;
-    private readonly string _selector;
 
-    public ProviderSelectorService(IConfiguration configuration,
-                                   IEnumerable<IProviderSelector> smsProviderSelectors)
+    public ProviderSelectorService(IEnumerable<IProviderSelector> smsProviderSelectors)
     {
         _smsProviderSelectors = smsProviderSelectors;
-
-        _selector = configuration["Section"];
     }
 
     public IProviderSelector GetProviderSelectorAsync(string typeName)

@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{2852C40F-36D7-4EA5-9CD2-4029397B3919}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{0886A97D-147B-4135-924D-4590A3258D89}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{935FDEC5-DD2B-47D9-91A6-BED833394C19}"
 	ProjectSection(SolutionItems) = preProject
 		Solution Items\Dockerfile = Solution Items\Dockerfile
@@ -30,10 +28,6 @@ Global
 		{2852C40F-36D7-4EA5-9CD2-4029397B3919}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2852C40F-36D7-4EA5-9CD2-4029397B3919}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2852C40F-36D7-4EA5-9CD2-4029397B3919}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0886A97D-147B-4135-924D-4590A3258D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0886A97D-147B-4135-924D-4590A3258D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0886A97D-147B-4135-924D-4590A3258D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0886A97D-147B-4135-924D-4590A3258D89}.Release|Any CPU.Build.0 = Release|Any CPU
 		{647EACCE-FB97-4A80-8076-3E8A114BD410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{647EACCE-FB97-4A80-8076-3E8A114BD410}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{647EACCE-FB97-4A80-8076-3E8A114BD410}.Release|Any CPU.ActiveCfg = Release|Any CPU

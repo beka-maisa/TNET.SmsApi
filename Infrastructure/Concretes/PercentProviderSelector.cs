@@ -29,7 +29,6 @@ public class PercentProviderSelector : IProviderSelector
                 return provider.Key;
             }
         }
-
         return _smsProviders.Last();
     }
 }
